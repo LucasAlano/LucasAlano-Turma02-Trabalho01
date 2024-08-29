@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const Banco1 = require("../src/banco");
 
 describe('Banco', () => {
@@ -53,20 +52,4 @@ describe('Banco', () => {
         contalucas2.pagarConta(450, 'Mensalidade do Cartão')
         expect(contalucas2.obterSaldo()).toBe(50)
     })
-
-=======
-const Banco = require("../src/banco");
-
-describe('Testes da classe Banco', () => {
-    let conta;
-
-    beforeEach(() => {
-        conta = new Banco('Conta Ugioni', 2);
-    });
-
-    test('Deve depositar dinheiro corretamente', () => {
-        conta.depositar(7.7);
-        expect(conta.obterSaldo()).toBe(9.7);
-    });
->>>>>>> c90474987ef7712e385be6ae7ebc5eb79b876d8b
 });
