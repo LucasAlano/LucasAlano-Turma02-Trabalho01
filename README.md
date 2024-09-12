@@ -21,7 +21,7 @@ Siga os passos abaixo para rodar o projeto:
 3. Run `npm run test` to execute the entire test suite
 4. Run `npm run coverage` to execute the entire test suite with coverage
 
-odos os artefatos de execução podem ser encontrados em `./coverage.` Se você quiser remover esses arquivos, execute `npm run clean`
+Todos os artefatos de execução podem ser encontrados em `./coverage.` Se você quiser remover esses arquivos, execute `npm run clean`
 
 ## Project Structure
 </br>
